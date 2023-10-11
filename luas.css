@@ -1,0 +1,87 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #388f42;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .nav-buttons {
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-button {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #bf8f43ca;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #F4BB5D;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .form-button {
+    background-color: #347e46;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
